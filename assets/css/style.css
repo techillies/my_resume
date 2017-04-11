@@ -2,6 +2,31 @@ body {
 	background: #e9eaed;
 	font-size: 0.9em;
 }
+@media only screen and (max-width: 500px) {
+	body {
+		font-size: 1.3em;
+		width: 500px;
+	}
+	.padding-0 {
+		padding: 0;
+	}
+	.work-exp {
+		margin-right: 15px;
+		margin-left: 15px;
+		padding: 0;
+	}
+	.dp-wrapper img {
+		height: 100%;
+		width: 100%;
+	}
+	.dp-wrapper {
+		margin: auto 10%;
+	}
+	.resume-wrapper {
+		margin: 0;
+		padding: 0;
+	}
+}
 
 .box {
     background: #272525;
@@ -52,5 +77,3 @@ body {
 .social-icons li {
 	margin: 0 6%;
 }
-
-
